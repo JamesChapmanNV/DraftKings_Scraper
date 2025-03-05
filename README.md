@@ -1,4 +1,6 @@
-# DraftKings_Scraper
+# DraftKings_Scraper <a target="_blank" href="https://colab.research.google.com/github/JamesChapmanNV/DraftKings_Scraper/blob/main/DraftKingsScraper.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 - This repository contains a Jupyter Notebook that scrapes NFL contest data from DraftKings' website. It provides robust ‘Data Cleaning’ and ‘Multi-Core Processing’ for efficient resource usage. 
 - `DraftKings removes data after ~4 days! I ran this notebook 2-3 times a week throughout the season.`
