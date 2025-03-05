@@ -1,7 +1,8 @@
 # DraftKings_Scraper
 
 
-# CSV/DataFrame Column Summary
+# Creates 3 CSV's 
+## Column Summary
 
 ---
 
