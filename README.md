@@ -9,8 +9,7 @@
 - Can easily be adapted to other sports and DraftKings contests.
 
 
-# Creates 3 CSV's 
-## Column Summary
+# Creates 3 CSV's (Below - all Columns Summary)
 
 ---
 
