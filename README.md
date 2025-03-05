@@ -1,10 +1,10 @@
 # DraftKings_Scraper
 
-This repository contains a Jupyter Notebook that scrapes NFL contest data from DraftKings' website. It provides robust ‘Data Cleaning’ and ‘Multi-Core Processing’ for efficient resource usage.
-`DraftKings removes data after ~4 days! I ran this notebook 2-3 times a week throughout the season.`
-The output is structured into Pandas DataFrames (CSV’s)  for subsequent analysis and model building. This is ready for data science and machine learning experiments. Uniquely, this includes the percent usage per player. 
-Hypothesis: If popular players (highly used, high %) are predicted to underperform, will unpopular players be better picks?
-
+- This repository contains a Jupyter Notebook that scrapes NFL contest data from DraftKings' website. It provides robust ‘Data Cleaning’ and ‘Multi-Core Processing’ for efficient resource usage. 
+- `DraftKings removes data after ~4 days! I ran this notebook 2-3 times a week throughout the season.`
+- The output is structured into Pandas DataFrames (CSV’s)  for subsequent analysis and model building. This is ready for data science and machine learning experiments. Uniquely, this includes the percent usage per player. 
+- Hypothesis: If popular players (highly used, high %) are predicted to underperform, will unpopular players be better picks?
+- Can easily be adapted to other sports and DraftKings contests.
 
 
 # Creates 3 CSV's 
