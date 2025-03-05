@@ -7,8 +7,8 @@
 
 - This repository contains a Jupyter Notebook that scrapes NFL contest data from DraftKings' website. It provides robust ‘Data Cleaning’ and ‘Multi-Core Processing’ for efficient resource usage. 
 - `DraftKings removes data after ~4 days! I ran this notebook 2-3 times a week throughout the season.`
-- The output is structured into Pandas DataFrames (CSV’s)  for subsequent analysis and model building. This is ready for data science and machine learning experiments. Uniquely, this includes the percent usage per player. 
-- Hypothesis: If popular players (highly used, high %) are predicted to underperform, will unpopular players be better picks?
+- The output is structured into Pandas DataFrames (CSV’s) for subsequent analysis and model building. This is ready for data science and machine learning experiments. Uniquely, this includes the percent usage per player. 
+- Example: If popular players (highly used, high %) are predicted to underperform, will unpopular players be better picks etc.
 - Can easily be adapted to other sports and DraftKings contests.
 
 
@@ -57,8 +57,8 @@
 - **place**  
 - **entry_id**  
 - **points**  
-- **lineup**  
-- **payout**
+- **lineup** - Actual lineup used ex: "DST Vikings FLEX Rashid Shaheed QB Josh Allen..."
+- **payout** - Actual money won by entry in contest
 
 ---
 
@@ -67,5 +67,5 @@
 - **contest_id**  
 - **player**  
 - **pos**  
-- **drafted**  
-- **points**
+- **drafted**  - actual percentage of entries used this player in lineup (for the given contest ID)
+- **points** - actual points this player scored (fantasy points)
